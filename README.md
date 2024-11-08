@@ -1,5 +1,78 @@
 # Tugas 5 - Aplikasi Penghitung Kata ([screenshot](#screenshot))
 
+Aplikasi ini memungkinkan pengguna untuk menghitung jumlah kata, karakter, kalimat, dan paragraf dalam teks yang dimasukkan. Selain itu, pengguna juga dapat mencari kata dalam teks dan menyimpan teks beserta hasil perhitungan ke dalam file teks.
+
+## Fitur Aplikasi
+
+- **Jumlah Kata**  
+  Menghitung jumlah kata dalam teks yang dimasukkan.
+
+- **Jumlah Karakter**  
+  Menghitung jumlah karakter dalam teks yang dimasukkan.
+
+- **Jumlah Kalimat**  
+  Menghitung jumlah kalimat dalam teks menggunakan pemisah kalimat.
+
+- **Jumlah Paragraf**  
+  Menghitung jumlah paragraf dalam teks yang dipisahkan oleh dua baris kosong.
+
+- **Cari Kata**  
+  Mencari kata tertentu dalam teks dan menyorotnya.
+
+- **Simpan ke File**  
+  Menyimpan teks beserta hasil perhitungan ke dalam file teks.
+
+## Cara Menjalankan Aplikasi
+
+### 1. **Instalasi Dependensi**
+
+Aplikasi ini tidak membutuhkan dependensi eksternal khusus selain Java SE. Pastikan Anda telah menginstal JDK yang kompatibel (Java 8 atau lebih tinggi).
+
+### 2. **Langkah Menjalankan**
+
+- Buka project ini di IDE seperti **NetBeans**.
+- Klik tombol **Run** untuk menjalankan aplikasi.
+
+### 3. **Interaksi dengan Aplikasi**
+
+- Masukkan teks di area input.
+- Klik **Hitung** untuk menghitung jumlah kata, karakter, kalimat, dan paragraf.
+- Gunakan fitur **Cari** untuk mencari kata dalam teks.
+- Klik **Simpan** untuk menyimpan teks dan hasil perhitungan ke dalam file teks.
+
+## Desain GUI
+
+Aplikasi ini memiliki tampilan antarmuka yang terdiri dari:
+
+- **Text Area (jTextArea1)**: Untuk memasukkan teks.
+- **Button (Hitung)**: Untuk menghitung jumlah kata, karakter, kalimat, dan paragraf.
+- **Label**: Untuk menampilkan hasil perhitungan jumlah kata, karakter, kalimat, dan paragraf.
+- **Text Field (jTextFieldCari)**: Untuk mencari kata dalam teks.
+- **Button (Cari)**: Untuk mencari kata yang dimasukkan pada text field.
+- **Button (Simpan)**: Untuk menyimpan teks beserta hasil perhitungan ke file.
+
+## Penjelasan Fitur
+
+1. **Jumlah Kata**  
+   Menghitung dan menampilkan jumlah kata dalam teks yang dimasukkan.
+
+2. **Jumlah Karakter**  
+   Menghitung dan menampilkan jumlah karakter dalam teks.
+
+3. **Jumlah Kalimat**  
+   Menghitung dan menampilkan jumlah kalimat dalam teks berdasarkan pemisahan kalimat.
+
+4. **Jumlah Paragraf**  
+   Menghitung dan menampilkan jumlah paragraf dalam teks.
+
+5. **Cari Kata**  
+   Mencari dan menyorot kata yang dicari dalam teks.
+
+6. **Simpan ke File**  
+   Menyimpan teks dan hasil perhitungan ke dalam file teks dengan ekstensi `.txt`.
+
+## Detail tugas
+
 1. Deskripsi Program:
 
    - Gunakan JTextArea dalam JScrollPane untuk input teks
